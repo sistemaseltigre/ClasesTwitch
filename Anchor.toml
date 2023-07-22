@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+counter_solang = "EzJ5QJn9AcXz3Mu9Ph2MYHiJ5j7ER3fexNeokeWMTYzD"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "https://clean-blissful-patron.solana-devnet.quiknode.pro/0c1c6fd14118b66a3e7f4f5edc764738e801996d/"
+wallet = "/home/chuo/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

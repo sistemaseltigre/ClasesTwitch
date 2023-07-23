@@ -5,7 +5,7 @@
 //importamos todo lo necesario
 import { Connection, Keypair, PublicKey, sendAndConfirmTransaction, SystemProgram, Transaction, TransactionInstruction } from "@solana/web3.js";
 import secret from './secret.json';
-const QUICKNODE_RPC = 'https://clean-blissful-patron.solana-devnet.quiknode.pro/0c1c6fd14118b66a3e7f4f5edc764738e801996d/';
+const QUICKNODE_RPC = 'YOUR QUICKNODE RPC LINK HERE';
 const SOLANA_CONNECTION = new Connection(QUICKNODE_RPC);
 
 async function logMemo (message: string) {

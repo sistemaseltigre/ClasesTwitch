@@ -11,7 +11,7 @@ const { Connection, Keypair, PublicKey, sendAndConfirmTransaction, SystemProgram
 const fs = require('fs');
 const secret = JSON.parse(fs.readFileSync(".secret").toString().trim());
 
-const QUICKNODE_RPC = 'https://clean-blissful-patron.solana-devnet.quiknode.pro/0c1c6fd14118b66a3e7f4f5edc764738e801996d/';
+const QUICKNODE_RPC = 'YOUR QUICKNODE RPC LINK HERE';
 const SOLANA_CONNECTION = new Connection(QUICKNODE_RPC);
 
 async function logMemo (message) {

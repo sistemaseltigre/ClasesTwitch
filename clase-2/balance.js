@@ -6,7 +6,7 @@ const web3 = require('@solana/web3.js');
 const { Connection, PublicKey, LAMPORTS_PER_SOL, clusterApiUrl } = web3;
 
 //declaramos el rpc de quicknode para conectarnos al cluster devnet
-const QUICKNODE_RPC = 'https://clean-blissful-patron.solana-devnet.quiknode.pro/0c1c6fd14118b66a3e7f4f5edc764738e801996d/';
+const QUICKNODE_RPC = 'YOUR QUICKNODE RPC LINK HERE';
 
 //establecer conexion con el cluster en devnet
 const SOLANA_CONNECTION_TX = new Connection(QUICKNODE_RPC);

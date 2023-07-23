@@ -1,7 +1,7 @@
 
 const solanaWeb3 = require('@solana/web3.js');
 const searchAddress = '2CUh9pSRWbSr7RLrfxfhFNrx8bme1hsuvhF4cgwdE45h'; 
-const endpoint = 'https://clean-blissful-patron.solana-devnet.quiknode.pro/0c1c6fd14118b66a3e7f4f5edc764738e801996d/';
+const endpoint = 'YOUR QUICKNODE RPC LINK HERE';
 const solanaConnection = new solanaWeb3.Connection(endpoint);
 
 const getTransactions = async(address, numTx) => {

@@ -3,7 +3,7 @@ const {Keypair, LAMPORTS_PER_SOL, Connection} = web3;
 const fs = require('fs');
 
 //STEP 1 - Connect to Solana Network
-const endpoint = 'https://clean-blissful-patron.solana-devnet.quiknode.pro/0c1c6fd14118b66a3e7f4f5edc764738e801996d/'; //Replace with your RPC Endpoint
+const endpoint = ' YOUR QUICKNODE RPC LINK HERE '; //Replace with your RPC Endpoint
 const solanaConnection = new Connection(endpoint);
 
 //STEP 2 - Generate a New Solana Wallet

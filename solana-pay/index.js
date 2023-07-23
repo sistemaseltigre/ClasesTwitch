@@ -21,7 +21,7 @@ const myWallet = 'GKzwank3rqV73sJPM1QWbmDN4sL9tcy3KTNhTnZDVaoT';
 const recipient = new PublicKey(myWallet);
 
 //config endpoint and cluster
-const quickNodeEndpoint = 'https://clean-blissful-patron.solana-devnet.quiknode.pro/0c1c6fd14118b66a3e7f4f5edc764738e801996d/';
+const quickNodeEndpoint = "YOUR QUICKNODE RPC LINK HERE";
 const connection = new Connection(quickNodeEndpoint, 'confirmed');
 
 //Product parameters

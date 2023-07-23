@@ -7,7 +7,7 @@ const { Connection, LAMPORTS_PER_SOL, Keypair, PublicKey, sendAndConfirmTransact
 
 // Connect to cluster
 const connection = new Connection(
-  "https://clean-blissful-patron.solana-devnet.quiknode.pro/0c1c6fd14118b66a3e7f4f5edc764738e801996d/",
+  "YOUR QUICKNODE RPC LINK HERE",
   'confirmed',
 );
 
